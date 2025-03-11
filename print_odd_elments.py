@@ -9,3 +9,9 @@ Expected output:
 
 20 40 60 80 100
 '''
+
+def printoddindexpositions(x):
+    for i in range(0, len(x),1):
+        if i % 2 != 0:
+            print(x[i])
+printoddindexpositions([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
