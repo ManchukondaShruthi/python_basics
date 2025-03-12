@@ -18,3 +18,12 @@ n = 4
 4 4 4 4  
 
 '''
+
+def pyramid(n):
+    for i in range(1,n+1,1):
+        for j in range(i):
+            print(i, end = " ")
+        print("")
+(pyramid(5))
+
+

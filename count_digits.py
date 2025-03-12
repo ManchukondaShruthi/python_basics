@@ -13,20 +13,6 @@
 # print(x)
 
 
-# def countdigitsofnumber(n):
-#     x = ""
-#     x = str(n)
-#     return(len(x))
-# print(countdigitsofnumber(222))
-
-
-
-# def countdigitsofnumber(n):
-#     x = []
-#     x.append(n)
-#     return(len(x))
-# print(countdigitsofnumber(222))
-
 
 def countdigitsofnumber(n):
     count = 0
