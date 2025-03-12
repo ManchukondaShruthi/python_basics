@@ -20,3 +20,10 @@ n = 4
 '''
 
 
+def invertedPyramidwithReversenumber(n):
+ for i in range(0,n):
+        for j in range(0,n-i):
+            print(n-j-i, end= " ")
+        print("")
+invertedPyramidwithReversenumber(5)
+
